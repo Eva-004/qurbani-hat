@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import NavLink from './NavLink';
 
 const Navbar = () => {
     const links = <>
-      <li className='text-lg'><Link href={'/'}>Home</Link></li>
-      <li className='text-lg'><Link href={'/all-animals'}>All Animals</Link></li>
+      <li className='text-lg'><NavLink href={'/'}>Home</NavLink></li>
+      <li className='text-lg'><NavLink href={'/all-animals'}>All Animals</NavLink></li>
     </>
     return (
         <div className='shadow-sm'>
