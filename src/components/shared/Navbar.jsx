@@ -4,8 +4,8 @@ import React from 'react';
 
 const Navbar = () => {
     const links = <>
-      <li><Link href={'/'}>Home</Link></li>
-      <li><Link href={'/all-animals'}>All Animals</Link></li>
+      <li className='text-lg'><Link href={'/'}>Home</Link></li>
+      <li className='text-lg'><Link href={'/all-animals'}>All Animals</Link></li>
     </>
     return (
         <div className='shadow-sm'>
@@ -32,8 +32,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-4 ">
-                    <button className='btn btn-info btn-outline'><Link href={'/login'}>Login</Link></button>
-                    <button className='btn btn-info btn-outline'><Link href={'/register'}>Register</Link></button>
+                    <button className='btn btn-primary btn-outline'><Link href={'/login'}>Login</Link></button>
+                    <button className='btn btn-primary btn-outline'><Link href={'/register'}>Register</Link></button>
                 </div>
             </div>
         </div>

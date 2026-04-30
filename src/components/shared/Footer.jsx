@@ -22,7 +22,7 @@ const Footer = () => {
                 <div className='space-y-2'>
                     <h2 className='font-bold text-2xl'>Contact Info</h2>
                     <div className='space-y-2'>
-                       <p> Sylhet, Bangladesh</p>
+                       <p>Location: Sylhet, Bangladesh</p>
                        <p>Phone: 017xxxxxxxxx</p>
                        <p>Email: fjeva944@gmail.com </p>
                     </div>
