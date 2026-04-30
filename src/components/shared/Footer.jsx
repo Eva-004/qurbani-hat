@@ -11,8 +11,8 @@ const Footer = () => {
          <div className='w-10/12 mx-auto'>
             <div className='flex flex-col justify-center md:flex-row gap-16 md:justify-evenly text-white'>
                 <div className=''>
-                    <Image src={'/images/logo.webp'} alt="footer logo" width={60} height={60} className='object-cover rounded-full'/>
-                    <h2 className='font-bold '>QurbaniHat</h2>
+                    <Image src={'/images/logo.webp'} alt="footer logo" width={80} height={80} className='object-cover rounded-full ml-6 '/>
+                    <h2 className='font-bold text-2xl mt-2'>QurbaniHat</h2>
                     
                 </div>
                 <div className='space-y-2'>
