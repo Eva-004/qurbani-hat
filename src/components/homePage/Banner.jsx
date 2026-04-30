@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className=' mx-auto space-y-2 text-center'>
                     <h2 className='font-bold text-5xl'>QurbaniHat</h2>
                     <h2 className='font-bold text-5xl'> Livestock Booking Platform</h2>
-                    <p className=''>Explore verified cows and goats for Qurbani with<br></br> a smooth and secure booking experience.</p>
+                    <p className='text-lg'>Explore verified cows and goats for Qurbani with<br></br> a smooth and secure booking experience.</p>
                     <button className='btn  btn-primary text-xl mt-2'><Link href={'/all-animals'} className='flex gap-2 items-center  text-white'>Browse Animals <FiArrowUpRight /></Link></button>
                 </div>
         </div> 
