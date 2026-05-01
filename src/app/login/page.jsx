@@ -12,6 +12,7 @@ import {
   TextField,
 } from "@heroui/react";
 import Link from "next/link";
+import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
 const LoginPage = () => {
@@ -39,7 +40,11 @@ const LoginPage = () => {
 
   };
 
-  
+     const handleGoogleSignIn = async()=>{
+    const data = await authClient.signIn.social({
+     provider: "google",
+  });
+  }
 
   return (
     <div>
@@ -94,7 +99,7 @@ const LoginPage = () => {
         <div className="flex gap-2">
           <Button type="submit">
             <Check />
-            Submit
+            Login
           </Button>
           <Button type="reset" variant="secondary">
             Reset
@@ -103,7 +108,7 @@ const LoginPage = () => {
       </Form>
       <p className="text-center text-gray-600 mt-2 text-xl">Don`t have account? Please <Link href={'/register'} className="text-blue-700">Register</Link></p>
       <p className="text-center text-gray-600">OR</p>
-      
+      <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full '}><GrGoogle/> Sign in with Google</Button>
     </Card>
     </div>
   );

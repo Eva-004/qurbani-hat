@@ -2,7 +2,9 @@
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import { Button, Card, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
 
@@ -33,6 +35,11 @@ const RegisterPage = () => {
         }
 
     }
+     const handleGoogleSignIn = async()=>{
+        const data = await authClient.signIn.social({
+         provider: "google",
+      });
+      }
     return (
         <Card className="border  mx-auto w-125 py-10 my-8">
             <h1 className="text-center text-2xl font-bold">Register</h1>
@@ -97,13 +104,16 @@ const RegisterPage = () => {
                 <div className="flex gap-2">
                     <Button type="submit">
                         <Check />
-                        Submit
+                        Register
                     </Button>
                     <Button type="reset" variant="secondary">
                         Reset
                     </Button>
                 </div>
             </Form>
+             <p className="text-center text-gray-600 mt-2 text-xl">Have a account! Please <Link href={'/Login'} className="text-blue-700">Login</Link></p>
+                  <p className="text-center text-gray-600">OR</p>
+                  <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full '}><GrGoogle/> Sign in with Google</Button>
         </Card>
     );
 };
