@@ -9,6 +9,7 @@ export default function Home() {
       <Banner></Banner>
       <FeaturedAnimals></FeaturedAnimals>
       <TipsAndBreeds></TipsAndBreeds>
+     
      </div>
   );
 }

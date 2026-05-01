@@ -1,9 +1,8 @@
+import BookNow from '@/components/homePage/BookNow';
 import { getAnimalsData } from '@/lib/fetchData';
 import { Card } from '@heroui/react';
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import { FiArrowUpRight } from 'react-icons/fi';
 
 const AnimalDetailsPage =async ({params}) => {
     const {id} = await params;
@@ -33,7 +32,7 @@ const AnimalDetailsPage =async ({params}) => {
                   </div>
                   </div>
                   <p className='text-xl mt-6 text-gray-600'><span className='font-bold'>Description: </span>{expectedAnimals.description}</p>
-                    <button className='btn  btn-primary text-xl mt-4'><Link href={'/all-animals'} className='flex gap-2 items-center  text-white'>Browse Animals <FiArrowUpRight /></Link></button>
+                    <BookNow></BookNow>
                 </div>
             </Card>
             </div>
