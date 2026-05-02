@@ -9,7 +9,7 @@ const MyProfilePage = () => {
     const user = userData.data?.user;
     return (
         <div className='my-30'>
-            <Card className='max-w-100 mx-auto flex flex-col  items-center border'>
+            <Card className='max-w-100 mx-auto flex flex-col  items-center shadow-md'>
                 <Avatar className='w-40 h-40'>
                     <Avatar.Image alt={user?.name} src={user?.image} referrerPolicy='no-referrer' className='w-full object-cover' />
                     <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>

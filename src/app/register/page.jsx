@@ -41,7 +41,7 @@ const RegisterPage = () => {
       });
       }
     return (
-        <Card className="border  mx-auto md:w-125 py-5 my-8">
+        <Card className="shadow-md  mx-auto md:w-125 py-5  my-8">
             <h1 className="text-center text-2xl font-bold">Register</h1>
 
             <Form className="flex w-full mx-auto flex-col gap-4" onSubmit={onSubmit}>
