@@ -1,6 +1,7 @@
 import { getAnimalsData } from '@/lib/fetchData';
 import React from 'react';
-import AnimalsCard from './AnimalsCard';
+import AnimalsCard from '../AnimalsCard';
+
 
 const FeaturedAnimals = async() => {
     const allAnimals = await getAnimalsData();

@@ -1,5 +1,5 @@
 import Banner from "@/components/homePage/Banner";
-import FeaturedAnimals from "@/components/homePage/FeaturedAnimals";
+import FeaturedAnimals from "@/components/homePage/featuredAnimal/FeaturedAnimals";
 import TipsAndBreeds from "@/components/homePage/TipsAndBreeds";
 
 

@@ -42,7 +42,7 @@ export function UpdateProfile() {
               <Button slot="close" variant="secondary">
                 Cancel
               </Button>
-                <Button  type="submit" >Save</Button>
+                <Button  type="submit" >Update</Button>
             </Modal.Footer>
                 </form>
               </Surface>

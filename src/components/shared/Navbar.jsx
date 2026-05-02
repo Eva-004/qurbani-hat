@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import NavLink from './NavLink';
 import { authClient } from '@/lib/auth-client';
+import { Avatar } from '@heroui/react';
 
 const Navbar = () => {
     const links = <>
@@ -31,9 +32,9 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <div className='flex justify-between gap-2 '>
-                        <Image src={'/images/logo.webp'} alt='logo' width={60} height={60} className=' object-cover rounded-full' />
-                        <h1 className='font-extrabold text-2xl'><Link href={'/'}>QurbaniHat</Link></h1>
+                    <div className='flex justify-between gap-2 items-center '>
+                        <Image src={'/images/logo2.webp'} alt='logo' width={60} height={60} className=' object-cover rounded-full' />
+                        <h1 className='font-extrabold text-3xl bg-gradient-to-r from-blue-800 to-blue-500 bg-clip-text text-transparent'><Link href={'/'}>QurbaniHat</Link></h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -45,7 +46,11 @@ const Navbar = () => {
                     <button className='btn btn-primary btn-outline'><Link href={'/login'}>Login</Link></button>
                     <button className='btn btn-primary btn-outline'><Link href={'/register'}>Register</Link></button>
                 </div> }
-                    { user && <div className="navbar-end flex gap-4 ">
+                    { user && <div className="navbar-end flex items-center gap-4 ">
+                        <Avatar className='w-12 h-12'>
+                    <Avatar.Image alt={user?.name} src={user?.image} referrerPolicy='no-referrer' className='w-full object-cover' />
+                    <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>
+                </Avatar>
                         <button onClick={handleLogOut} className='btn btn-primary btn-outline'><Link href={'/login'}>LogOut</Link></button>
                     </div>}
             </div>
