@@ -20,7 +20,7 @@ const Banner = () => {
                 <animated.h2 style={props} className='font-bold text-5xl bg-gradient-to-r from-blue-800 to-purple-500 bg-clip-text text-transparent'>QurbaniHat</animated.h2>
                 <h2 className='font-bold text-5xl '> Livestock Booking Platform</h2>
                 <p className='text-lg'>Explore verified cows and goats for Qurbani with<br></br> a smooth and secure booking experience.</p>
-                <button className='btn  btn-primary text-xl mt-2 '><Link href={'/all-animals'} className='flex gap-2 items-center  text-white '>Browse Animals <FiArrowUpRight /></Link></button>
+                <button className='btn  btn-primary text-xl mt-2 animate-animated animate-bounce'><Link href={'/all-animals'} className='flex gap-2 items-center  text-white '>Browse Animals <FiArrowUpRight /></Link></button>
             </div>
         </div>
     );

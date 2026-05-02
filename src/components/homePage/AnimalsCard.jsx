@@ -9,7 +9,7 @@ const AnimalsCard = ({animal}) => {
     console.log(animal);
     return (
         <div>
-           <Card className='border border-purple-500 rounded-2xl'>
+           <Card className='border border-purple-500 rounded-2xl '>
              <div className='relative aspect-square'>
                  <Image
                  src={animal.image}
