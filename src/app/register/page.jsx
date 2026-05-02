@@ -41,10 +41,10 @@ const RegisterPage = () => {
       });
       }
     return (
-        <Card className="border  mx-auto w-125 py-5 my-8">
+        <Card className="border  mx-auto w-96 md:w-125 py-5 my-8">
             <h1 className="text-center text-2xl font-bold">Register</h1>
 
-            <Form className="flex w-100 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+            <Form className="flex w-90 md:w-100 mx-auto flex-col gap-4" onSubmit={onSubmit}>
                 <TextField isRequired name="name" type="text">
                     <Label>Name</Label>
                     <Input placeholder="Enter your name" />

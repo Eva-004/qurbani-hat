@@ -11,15 +11,15 @@ const AnimalDetailsPage =async ({params}) => {
     console.log(expectedAnimals)
     return (
         <div className='my-20'>
-            <h2 className='font-bold text-3xl text-center mb-8'>Healthy & Ready for Qurbani</h2>
+            <h2 className='font-bold text-2xl md:text-3xl text-center mb-8'>Healthy & Ready for Qurbani</h2>
             <div className='w-11/12 mx-auto'>
-                <Card className='border border-purple-500 flex flex-row items-center gap-10'>
+                <Card className='border border-purple-500 flex lg:flex-row items-center gap-4 md:gap-10'>
                 <div>
                   <Image src={expectedAnimals.image} width={100} height={100} alt={expectedAnimals.name} className='w-full h-[64vh]'/>
                 </div>
                 <div> 
                   <h2 className='font-bold text-5xl text-center text-primary'>{expectedAnimals.name}</h2>
-                  <div  className='flex justify-between gap-4 mt-8'>
+                  <div  className='flex justify-between gap-2 md:gap-4 mt-8'>
                     <div className='space-y-2'>
                    <p className='text-xl text-gray-600 '>Price: {expectedAnimals.price}</p>
                    <p className='text-xl text-gray-600 '>Weight: {expectedAnimals.weight}</p>

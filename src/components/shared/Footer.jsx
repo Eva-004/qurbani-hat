@@ -10,13 +10,13 @@ const Footer = () => {
         <div className='bg-[#101727] pt-30 pb-10'>
          <div className='w-10/12 mx-auto'>
             <div className='flex flex-col justify-center md:flex-row gap-16 md:justify-evenly text-white'>
-                <div className=''>
+                <div className='  mx-auto '>
                     <Image src={'/images/logo2.webp'} alt="footer logo" width={80} height={80} className='object-cover rounded-full ml-6 '/>
                     <h2 className='font-bold text-3xl mt-2'>QurbaniHat</h2>
                     
                 </div>
                 <div className='space-y-2'>
-                    <p className='font-bold'>About</p>
+                    <p className='font-bold text-2xl'>About</p>
                     <p>We provide a trusted online marketplace for buying<br></br> Qurbani Animals. Browse animals, compare prices, and<br></br> book securely from verified sellers.</p>
                 </div>
                 <div className='space-y-2'>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 
                 <div className='space-y-2'>
-                    <h2 className='font-bold '>Social Links</h2>
+                    <h2 className='font-bold text-2xl'>Social Links</h2>
                     <ul className='text-[#101727] flex gap-2'>
                         <li className='p-2.5 rounded-full bg-base-100 w-10 h-10 flex justify-center items-center'><Link href={'#'}><AiFillInstagram className='w-5 h-5'/></Link></li>
                         <li className='p-2.5 rounded-full bg-base-100 w-10 h-10 flex justify-center items-center'><Link href={'#'}><FaFacebookSquare/></Link></li>

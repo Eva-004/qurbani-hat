@@ -9,7 +9,7 @@ const BookNow = () => {
     }
     return (
          <Modal>
-      <Button  className='btn  btn-primary text-xl mt-4 text-white'>Book Now</Button>
+      <div className="flex justify-center lg:justify-start lg:items-start "><Button  className='btn  btn-primary text-xl mt-4 text-white '>Book Now</Button></div>
       <Modal.Backdrop>
         <Modal.Container placement="auto">
           <Modal.Dialog className="sm:max-w-md">

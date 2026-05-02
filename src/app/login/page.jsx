@@ -48,10 +48,10 @@ const LoginPage = () => {
 
   return (
     <div>
-     <Card className="border mx-auto w-125 py-5 my-8">
+     <Card className="border mx-auto w-96 md:w-125 py-5 my-8">
       <h1 className="text-center text-2xl font-bold">Login</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex w-90 md:w-100  mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
           isRequired
           name="email"
