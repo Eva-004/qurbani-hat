@@ -1,5 +1,5 @@
 'use client'
-import UpdateProfile from '@/components/homePage/UpdateProfile';
+import { UpdateProfile } from '@/components/homePage/UpdateProfile';
 import { authClient } from '@/lib/auth-client';
 import { Avatar, Card } from '@heroui/react';
 import React from 'react';
@@ -8,8 +8,8 @@ const MyProfilePage = () => {
     const userData = authClient.useSession();
     const user = userData.data?.user;
     return (
-        <div className='mt-10'>
-            <Card className='max-w-96 mx-auto flex flex-col  items-center border'>
+        <div className='my-30'>
+            <Card className='max-w-100 mx-auto flex flex-col  items-center border'>
                 <Avatar className='w-40 h-40'>
                     <Avatar.Image alt={user?.name} src={user?.image} referrerPolicy='no-referrer' className='w-full object-cover' />
                     <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>
