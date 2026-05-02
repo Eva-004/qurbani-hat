@@ -9,12 +9,13 @@ export const metadata = {
 
 const NotFoundPage = () => {
     return (
-        <div className='text-center mb-40 '>
+        <div className='text-center mb-40 mt-10 '>
             <div>
                 <DotLottieReact
                     src="https://lottie.host/a0b0af1c-e4bf-47d9-a5a7-e1e269b927b9/1uI3VdkAbm.lottie"
                     loop
                     autoplay
+                    className='w-80 h-80 mx-auto'
                 />
                 <Link href={"/"} className="px-5 py-2 border border-purple-800 rounded-full text-sm hover:bg-purple-800 hover:text-white transition"> Go to Home
                 </Link>
