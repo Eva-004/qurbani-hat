@@ -24,7 +24,7 @@ const AnimalsCard = ({animal}) => {
                     <h2 className='font-bold text-xl '>{animal.name}</h2>
                     <div className='flex justify-between items-center gap-4'>
                          <p className={'text-lg flex justify-between items-center gap-1'}><FaBangladeshiTakaSign />{animal.price}</p>
-                         <p className={'text-lg flex justify-between items-center gap-1'}><FaWeight />{animal.weight}</p>
+                         <p className={'text-lg flex justify-between items-center gap-1'}><FaWeight />{animal.weight} Kg</p>
                     </div>
                    <Link href={`/all-animals/${animal.id}`} >
                     <Button variant='outline' className={'w-full border-blue-500 text-blue-700'}>View</Button>
