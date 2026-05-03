@@ -4,9 +4,9 @@ import { GiCheckMark } from 'react-icons/gi';
 
 const TipsAndBreeds = () => {
     return (
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 py-20 px-6">
-  
-  <div className="text-center mb-12">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-500 py-20 px-6 relative">
+   <div className="absolute  inset-0 bg-black/30"></div>
+  <div className="text-center mb-12 relative z-10">
     <h1 className="text-4xl md:text-5xl font-bold text-white">
       Qurbani Tips and Top Breeds
     </h1>
@@ -15,7 +15,7 @@ const TipsAndBreeds = () => {
     </p>
   </div>
 
-  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
 
     <div className="bg-white  rounded-2xl shadow-xl p-6">
       <h2 className="text-xl font-bold mb-5 text-gray-800">

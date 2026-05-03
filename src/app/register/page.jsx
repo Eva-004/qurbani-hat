@@ -111,7 +111,7 @@ const RegisterPage = () => {
                     </Button>
                 </div>
             </Form>
-             <p className="text-center text-gray-600 mt-2 text-xl">Have a account! Please <Link href={'/Login'} className="text-blue-700">Login</Link></p>
+             <p className="text-center text-gray-600 mt-2 text-xl">Have a account! Please <Link href={'/login'} className="text-blue-700">Login</Link></p>
                   <p className="text-center text-gray-600">OR</p>
                   <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full '}><GrGoogle/> Sign in with Google</Button>
         </Card>
