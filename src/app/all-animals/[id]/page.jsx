@@ -27,7 +27,7 @@ const AnimalDetailsPage =async ({params}) => {
                   </div>
                   <div className='space-y-2'>
                    <p className='text-xl text-gray-600 '>Category: {expectedAnimals.category}</p>
-                   <p className='text-xl text-gray-600 '>Breed: {expectedAnimals.bddreed}</p>
+                   <p className='text-xl text-gray-600 '>Breed: {expectedAnimals.breed}</p>
                     <p className='text-xl text-gray-600 '>Location: {expectedAnimals.location}</p>
                   </div>
                   </div>
