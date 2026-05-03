@@ -19,7 +19,7 @@ const AnimalDetailsPage =async ({params}) => {
                 </div>
                 <div> 
                   <h2 className='font-bold text-2xl md:text-5xl text-center text-primary'>{expectedAnimals.name}</h2>
-                  <div  className='flex justify-between gap-4 mt-8'>
+                  <div  className='flex flex-col sm:flex-row justify-between gap-4 mt-8'>
                     <div className='space-y-2'>
                    <p className='text-xl text-gray-600 '>Price: {expectedAnimals.price}</p>
                    <p className='text-xl text-gray-600 '>Weight: {expectedAnimals.weight}</p>
