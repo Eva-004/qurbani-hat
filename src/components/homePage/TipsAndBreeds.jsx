@@ -18,7 +18,7 @@ const TipsAndBreeds = () => {
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
 
     <div className="bg-white  rounded-2xl shadow-xl p-6">
-      <h2 className="text-xl font-bold mb-5 text-gray-800">
+      <h2 className="text-lg md:text-xl font-bold mb-5 text-gray-800">
         Quick checks for a healthy choice
       </h2>
 
@@ -31,7 +31,7 @@ const TipsAndBreeds = () => {
     </div>
 
     <div className="bg-white  rounded-2xl shadow-xl p-6">
-      <h2 className="text-xl font-bold mb-5 text-gray-800">
+      <h2 className="text-lg md:text-xl font-bold mb-5 text-gray-800">
         Top Breeds
       </h2>
 

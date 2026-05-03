@@ -34,7 +34,7 @@ const LoginPage = () => {
     toast.error(error)
    }
    else{
-    toast.success("SignIn successfully!")
+    toast.success("Login successfully!")
    }
     console.log(email,password)
 
