@@ -15,7 +15,7 @@ const AnimalDetailsPage =async ({params}) => {
             <div className='w-11/12 mx-auto'>
                 <Card className='border border-purple-500 flex lg:flex-row items-center gap-4 md:gap-10'>
                 <div>
-                  <Image src={expectedAnimals.image} width={100} height={100} alt={expectedAnimals.name} className='object-cover w-full h-[50vh] sm:h-[64vh]'/>
+                  <Image src={expectedAnimals.image} width={100} height={100} alt={expectedAnimals.name} className='object-cover w-full h-[40vh] sm:h-[64vh]'/>
                 </div>
                 <div> 
                   <h2 className='font-bold text-2xl md:text-5xl text-center text-primary'>{expectedAnimals.name}</h2>
