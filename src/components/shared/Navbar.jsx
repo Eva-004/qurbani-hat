@@ -16,9 +16,7 @@ const Navbar = () => {
         <li className='text-lg block'><Link href={'/login'} >Login</Link></li>
         <li className='text-lg block'><Link href={'/register'} >Register</Link></li>
     </>
-    const logOut = <>
-    <li className='text-lg block'><Link href={'/login'} >Logout</Link></li>
-    </>
+  
     const userData = authClient.useSession();
     const user = userData.data?.user;
     console.log(user)
@@ -37,7 +35,7 @@ const Navbar = () => {
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             {links}
-                            {user && logOut}
+                            {user && <li className='text-lg block' onClick={handleLogOut}><Link href={'/login'} >Logout</Link></li>}
                              {!user && loginRegister}
                         </ul>
                     </div>
