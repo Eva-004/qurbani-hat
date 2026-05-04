@@ -9,20 +9,23 @@ This project focuses on improving accessibility, transparency, and convenience f
 Live Demo: https://qurbani-hat-henna.vercel.app/
 
 ---
-## Key Features
-🐄 Browse Livestock – Users can explore available Qurbani animals like cows and goats
-📄 Detailed Animal Info – Each listing includes price, weight, age, and images
-🔍 Search & Filter – Easily find animals based on preferences
-🔐 Authentication System – Secure login/signup to place bookings
-🛒 Booking System – Users can reserve animals for Qurbani
-📍 Location-Based View (optional) – Show nearby listings (if implemented)
-💻 Responsive Design – Works smoothly on mobile, tablet, and desktop
-⚡ Fast & Modern UI – Clean and user-friendly interface
+## 🚀 Key Features
+
+- 🐄 **Browse Livestock** – Users can explore available Qurbani animals like cows and goats  
+- 📄 **Detailed Animal Info** – Each listing includes price, weight, age, and images  
+- 🔍 **Search & Filter** – Easily find animals based on preferences  
+- 🔐 **Authentication System** – Secure login/signup to place bookings  
+- 🛒 **Booking System** – Users can reserve animals for Qurbani  
+- 📍 **Location-Based View (optional)** – Show nearby listings (if implemented)  
+- 💻 **Responsive Design** – Works smoothly on mobile, tablet, and desktop  
+- ⚡ **Fast & Modern UI** – Clean and user-friendly interface  
 
 ---
+
 ## 📦 NPM Packages Used
--Next.js – Full-stack React framework
--Tailwind CSS – Styling
--React Icons – Icons
--React Spring – Animations
--DotLottie React – Animated visuals
+
+- ⚛️ Next.js – Full-stack React framework  
+- 🎨 Tailwind CSS – Utility-first CSS styling framework  
+- 🎯 React Icons – Icon library for React  
+- ✨ React Spring – Animation library  
+- 🎞️ DotLottie React – Lightweight Lottie animation renderer  
