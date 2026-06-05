@@ -29,3 +29,15 @@ Live Demo: https://qurbani-hat-henna.vercel.app/
 - 🎯 React Icons – Icon library for React  
 - ✨ React Spring – Animation library  
 - 🎞️ DotLottie React – Lightweight Lottie animation renderer  
+---
+
+## UI ScreenShorts
+
+# Home Page
+<img width="948" height="311" alt="Screenshot 2026-06-05 073110" src="https://github.com/user-attachments/assets/05fe5a4d-75b8-4792-8c72-25f6a49e79f4" />
+
+# Animals
+<img width="911" height="416" alt="Screenshot 2026-06-05 073302" src="https://github.com/user-attachments/assets/2326199c-6e69-466a-a76c-e85a42ee4dfc" />
+# Animal Details Page
+<img width="912" height="407" alt="Screenshot 2026-06-05 073433" src="https://github.com/user-attachments/assets/f7376f2d-ab27-4da8-9ddc-910a8f31d446" />
+
