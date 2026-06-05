@@ -38,6 +38,7 @@ Live Demo: https://qurbani-hat-henna.vercel.app/
 
 # Animals
 <img width="911" height="416" alt="Screenshot 2026-06-05 073302" src="https://github.com/user-attachments/assets/2326199c-6e69-466a-a76c-e85a42ee4dfc" />
+
 # Animal Details Page
 <img width="912" height="407" alt="Screenshot 2026-06-05 073433" src="https://github.com/user-attachments/assets/f7376f2d-ab27-4da8-9ddc-910a8f31d446" />
 
