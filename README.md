@@ -26,9 +26,6 @@ Live Demo: https://qurbani-hat-henna.vercel.app/
 
 - ⚛️ Next.js – Full-stack React framework  
 - 🎨 Tailwind CSS – Utility-first CSS styling framework  
-- 🎯 React Icons – Icon library for React  
-- ✨ React Spring – Animation library  
-- 🎞️ DotLottie React – Lightweight Lottie animation renderer  
 ---
 
 ## UI ScreenShorts
